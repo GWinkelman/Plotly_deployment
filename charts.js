@@ -122,5 +122,7 @@ function buildCharts(sample) {
     },
     hovermode: "closest"
   };
+
+  Plotly.newPlot("bubble", bubbleData, bubbleLayout)
 });
 }
